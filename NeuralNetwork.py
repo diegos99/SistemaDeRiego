@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 dataset = pd.read_csv(
     "data.csv", encoding='utf-8', header=None)
